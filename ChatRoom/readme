@@ -1,0 +1,12 @@
+- to run this app, please follow these step below:
+- download "NodeJs in action" ebook
+- install nodejs
+- go to directory which is stored server.js
+- run cmd: npm install
+- Nodejs will create the node_modules folder
+- install sublime text, then Google to run with Nodejs
+- to find server run with the specified port, open cmd then do these command lines:
+	-  netstat -ano | find "LISTENING" | find "3000"
+	 result:  	TCP    0.0.0.0:3000           0.0.0.0:0              LISTENING       6944
+  				TCP    [::]:3000              [::]:0                 LISTENING       6944
+  	- then kill process by: taskkill /pid 3256
