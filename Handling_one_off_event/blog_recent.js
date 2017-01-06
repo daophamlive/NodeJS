@@ -52,4 +52,13 @@ function response_callback(req, res){
 	}
 }
 
-http.createServer(response_callback).listen(8000,'127.0.0.1');
+//http.createServer(response_callback).listen(8000,'127.0.0.1');
+var net = require('net');
+var server = net.createServer(function(socket){
+	socket.once('data', function(data){
+		console.log('Port 88881 is listened');
+		socket.write(data);
+	});
+});
+
+server.listen(8888);
