@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceRoot}/event_emitter.js",
+            "program": "${workspaceRoot}/file_watcher.js",
             "cwd": "${workspaceRoot}"
         },
         {
