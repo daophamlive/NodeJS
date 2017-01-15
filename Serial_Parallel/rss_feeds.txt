@@ -1,0 +1,2 @@
+http://www.feedforall.com/sample-feed.xml
+http://www.feedforall.com/sample.xml
