@@ -1,0 +1,5 @@
+As we mentioned earlier, events are handled through the use of listeners. A listener
+is the association of an event with a callback function that gets triggered each time the
+event occurs. For example, a TCP socket in Node has an event called data that’s triggered
+whenever new data is available on the socket:
+socket.on('data', handleData);
